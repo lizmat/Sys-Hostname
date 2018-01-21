@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lizmat/Sys-Hostname.svg?branch=master)](https://travis-ci.org/lizmat/Sys-Hostname)
+
 NAME
 ====
 
