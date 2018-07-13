@@ -1,8 +1,11 @@
 use v6.c;
 
-unit module Sys::Hostname:ver<0.0.6>:auth<cpan:ELIZABETH>;
+unit module Sys::Hostname:ver<0.0.7>:auth<cpan:ELIZABETH>;
 
-sub hostname() is export { gethostname.subst(/ \s | \0 /,'',:g) }
+sub hostname() is export {
+    use nqp;
+    nqp::gethostname.subst(/ \s | \0 /,'',:g)
+}
 
 =begin pod
 
