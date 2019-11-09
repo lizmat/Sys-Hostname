@@ -5,7 +5,7 @@
   ],
   "build-depends" : [ ],
   "depends" : [ ],
-  "description" : "Implement Perl 5's Sys::Hostname core module",
+  "description" : "Implement Perl's Sys::Hostname core module",
   "license" : "Artistic-2.0",
   "name" : "Sys::Hostname",
   "perl" : "6.c",
@@ -19,5 +19,5 @@
     "CPAN5"
   ],
   "test-depends" : [ ],
-  "version" : "0.0.7"
+  "version" : "0.0.8"
 }

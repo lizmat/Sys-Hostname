@@ -2,6 +2,9 @@ Revision history for Sys::Hostname
 
 {{$NEXT}}
 
+0.0.8  2019-11-09T23:02:18+01:00
+    - change Perl 6 to Raku, and Perl 5 to Perl
+
 0.0.7  2018-07-13T23:19:57+02:00
     - gethostname() is not canaon enough, use nqp::hostname instead
 

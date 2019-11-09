@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module Sys::Hostname:ver<0.0.7>:auth<cpan:ELIZABETH>;
+unit module Sys::Hostname:ver<0.0.8>:auth<cpan:ELIZABETH>;
 
 sub hostname() is export {
     use nqp;
@@ -11,7 +11,7 @@ sub hostname() is export {
 
 =head1 NAME
 
-Sys::Hostname - Implement Perl 5's Sys::Hostname core module
+Sys::Hostname - Implement Perl's Sys::Hostname core module
 
 =head1 SYNOPSIS
 
@@ -20,7 +20,7 @@ Sys::Hostname - Implement Perl 5's Sys::Hostname core module
 
 =head1 DESCRIPTION
 
-Obtain the system hostname as Perl 6 sees it.
+Obtain the system hostname as Raku sees it.
 
 All NULs, returns, and newlines are removed from the result.
 
@@ -38,9 +38,9 @@ Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018 Elizabeth Mattijsen
+Copyright 2018-2019 Elizabeth Mattijsen
 
-Originally developed by David Sundstrom and Greg Bacon.  Re-imagined from Perl 5
+Originally developed by David Sundstrom and Greg Bacon.  Re-imagined from Perl
 as part of the CPAN Butterfly Plan.
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
