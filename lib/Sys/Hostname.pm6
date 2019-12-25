@@ -2,9 +2,9 @@ use v6.c;
 
 unit module Sys::Hostname:ver<0.0.8>:auth<cpan:ELIZABETH>;
 
+my constant &hostname-routine = $*KERNEL.^lookup('hostname').?assuming($*KERNEL) || &gethostname;
 sub hostname() is export {
-    use nqp;
-    nqp::gethostname.subst(/ \s | \0 /,'',:g)
+    hostname-routine.subst(/ \s | \0 /,'',:g)
 }
 
 =begin pod
