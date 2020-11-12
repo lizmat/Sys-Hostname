@@ -1,23 +1,27 @@
 {
-  "auth" : "cpan:ELIZABETH",
-  "authors" : [
+  "auth": "cpan:ELIZABETH",
+  "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "description" : "Implement Perl's Sys::Hostname core module",
-  "license" : "Artistic-2.0",
-  "name" : "Sys::Hostname",
-  "perl" : "6.c",
-  "provides" : {
-    "Sys::Hostname" : "lib/Sys/Hostname.pm6"
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Raku port of Perl's Sys::Hostname module",
+  "license": "Artistic-2.0",
+  "name": "Sys::Hostname",
+  "perl": "6.c",
+  "provides": {
+    "Sys::Hostname": "lib/Sys/Hostname.pm6"
   },
-  "resources" : [ ],
-  "source-url" : "https://github.com/lizmat/Sys-Hostname.git",
-  "tags" : [
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Sys-Hostname.git",
+  "tags": [
     "UTILS",
     "CPAN5"
   ],
-  "test-depends" : [ ],
-  "version" : "0.0.8"
+  "test-depends": [
+  ],
+  "version": "0.0.9"
 }
