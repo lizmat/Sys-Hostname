@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/lizmat/Sys-Hostname/workflows/test/badge.svg)](https://github.com/lizmat/Sys-Hostname/actions)
+
 NAME
 ====
 
@@ -26,14 +28,14 @@ At present, the behaviour of the built-in `gethostname` sub is used. Any bugs in
 AUTHOR
 ======
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Sys-Hostname . Comments and Pull Requests are welcome.
 
 COPYRIGHT AND LICENSE
 =====================
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Originally developed by David Sundstrom and Greg Bacon. Re-imagined from Perl as part of the CPAN Butterfly Plan.
 

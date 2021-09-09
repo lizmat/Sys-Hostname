@@ -1,6 +1,6 @@
 use v6.c;
 
-unit module Sys::Hostname:ver<0.0.9>:auth<cpan:ELIZABETH>;
+unit module Sys::Hostname:ver<0.0.10>:auth<zef:lizmat>;
 
 sub hostname() is export {
     use nqp;
@@ -34,14 +34,14 @@ bugs in its behaviour should be fixed there.
 
 =head1 AUTHOR
 
-Elizabeth Mattijsen <liz@wenzperl.nl>
+Elizabeth Mattijsen <liz@raku.rocks>
 
 Source can be located at: https://github.com/lizmat/Sys-Hostname . Comments and
 Pull Requests are welcome.
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2018-2020 Elizabeth Mattijsen
+Copyright 2018, 2019, 2020, 2021 Elizabeth Mattijsen
 
 Originally developed by David Sundstrom and Greg Bacon.  Re-imagined from Perl
 as part of the CPAN Butterfly Plan.
