@@ -1,6 +1,8 @@
 Revision history for Sys::Hostname
 
 {{$NEXT}}
+
+0.0.11  2026-08-05T16:33:08+02:00
     - Use KERNEL.hostname, as Zoffix suggested in 2018
     - Modernize META
     - Add CI button for each OS

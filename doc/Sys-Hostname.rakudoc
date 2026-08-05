@@ -22,9 +22,8 @@ All NULs, returns, and newlines are removed from the result.
 
 =head1 PORTING CAVEATS
 
-At present, the behaviour of the built-in C<hostname> method on the
-C<$*KERNEL> dynamica variable is used.  Any bugs in its behaviour
-should be fixed there.
+At present, the behaviour of the built-in C<Kernel.hostname> method
+is used.  Any bugs in its behaviour should be fixed there.
 
 =head1 AUTHOR
 
