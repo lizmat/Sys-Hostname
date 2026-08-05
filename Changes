@@ -1,6 +1,13 @@
 Revision history for Sys::Hostname
 
 {{$NEXT}}
+    - Use KERNEL.hostname, as Zoffix suggested in 2018
+    - Modernize META
+    - Add CI button for each OS
+    - Add sponsor info
+    - Add coverage testing
+    - Use modern file extensions for test files
+    - Update copyright year
 
 0.0.10  2021-09-09T20:27:35+02:00
     - Change file extension to .rakumod

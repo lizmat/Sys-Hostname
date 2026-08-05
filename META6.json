@@ -3,25 +3,23 @@
   "authors": [
     "Elizabeth Mattijsen"
   ],
-  "build-depends": [
-  ],
   "depends": [
   ],
   "description": "Raku port of Perl's Sys::Hostname module",
   "license": "Artistic-2.0",
   "name": "Sys::Hostname",
-  "perl": "6.c",
   "provides": {
     "Sys::Hostname": "lib/Sys/Hostname.rakumod"
   },
-  "resources": [
-  ],
-  "source-url": "https://github.com/lizmat/Sys-Hostname.git",
+  "raku": "6.c",
+  "support": {
+    "bugtracker": "https://github.com/lizmat/Sys-Hostname/issues",
+    "email": "liz@raku.rocks",
+    "source": "https://github.com/lizmat/Sys-Hostname.git"
+  },
   "tags": [
     "UTILS",
     "CPAN5"
-  ],
-  "test-depends": [
   ],
   "version": "0.0.10"
 }
